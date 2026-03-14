@@ -1,0 +1,34 @@
+{
+  "name": "fullstackopen-osa-4",
+  "version": "1.0.0",
+  "description": "HY Full stack open -kurssin 4. osio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SauliSillanpaa/FullStackOpen-osa-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SauliSillanpaa/FullStackOpen-osa-4/issues"
+  },
+  "homepage": "https://github.com/SauliSillanpaa/FullStackOpen-osa-4#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.0.3",
+    "globals": "^17.4.0"
+  }
+}

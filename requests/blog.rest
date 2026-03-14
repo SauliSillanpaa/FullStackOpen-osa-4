@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "My Blog",
+    "author": "Sauli Sillanpää",
+    "url": "https://blogi.fi/sauli",
+    "likes": 123456789
+}
+
+###
+GET http://localhost:3003/api/blogs
