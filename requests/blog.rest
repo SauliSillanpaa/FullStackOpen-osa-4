@@ -1,12 +1,50 @@
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhdWxpU2lsbGFucGFhIiwiaWQiOiI2OWI2YWMzOGU2ZmVjNjBmOGY4Y2E2ZmYiLCJpYXQiOjE3NzM2MDI2NTB9.g1WP4x_10fta4QQOTrVbV7LKNlz4o2khdWXmZns8bS8
+// sauli
 
 {
-    "title": "My Blog",
+    "title": "My New Blog",
     "author": "Sauli Sillanpää",
     "url": "https://blogi.fi/sauli",
-    "likes": 123456789
+    "likes": 2
+}
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlN1cGVybWFuS2lsbGVyIiwiaWQiOiI2OWI2YWQzMDM5MmQ0NmIxZWEyYmJlMGIiLCJpYXQiOjE3NzM2MDI1NjF9.IS79t55rQD87G6ytRJAsABb4-_My9mKacdLn3hvvz3Q
+// batman
+
+{
+    "title": "How I killed Batman",
+    "author": "Bruce Wayne",
+    "url": "https://blogi.fi/batman",
+    "likes": 66
+}
+
+###
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "TruthBlog",
+    "author": "Alex Jones",
+    "url": "https://blogi.fi/alex"
 }
 
 ###
 GET http://localhost:3003/api/blogs
+
+###
+DELETE http://localhost:3003/api/blogs/69b7024faa9a18859ad3911a
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNhdWxpU2lsbGFucGFhIiwiaWQiOiI2OWI2YWMzOGU2ZmVjNjBmOGY4Y2E2ZmYiLCJpYXQiOjE3NzM2MDI2NTB9.g1WP4x_10fta4QQOTrVbV7LKNlz4o2khdWXmZns8bS8
+// sauli
+
+###
+DELETE http://localhost:3003/api/blogs/69b6bc6aa4a4bcf62ec419ff
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlN1cGVybWFuS2lsbGVyIiwiaWQiOiI2OWI2YWQzMDM5MmQ0NmIxZWEyYmJlMGIiLCJpYXQiOjE3NzM2MDI1NjF9.IS79t55rQD87G6ytRJAsABb4-_My9mKacdLn3hvvz3Q
+// batman
+
+###
+DELETE http://localhost:3003/api/blogs/69b702c8aa9a18859ad3911f
